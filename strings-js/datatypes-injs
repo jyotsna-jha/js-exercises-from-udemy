@@ -1,0 +1,10 @@
+
+Javascript is a dynamically typed language, meaning that variables can hold different data types.
+There are two categories of data types in Javascript.
+
+1) Primitive types
+--> Number, String, Boolean, Undefined, Null, Bright, Symbol
+
+2) Non-Primitive:
+--> Mutable, multiple values
+-Objects, Arrays

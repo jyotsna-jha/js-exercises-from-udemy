@@ -1,0 +1,25 @@
+
+Javascript variables are like containers where you can store data that can be
+used and manipulated throughout.Variables in Javascript are used to store data,
+values or references to data.
+
+They are created using the var, let or const keyword, and each of these has its own
+scope and use case.
+
+
+var:
+The var is mostly used in older code base.Each function scoped and can be redeclared
+and updated.
+
+let:
+It was introduced in ES6.It is a block scope and can be updated but not redeclared in the same scope.
+
+const:
+It is block scoped, but neither can be updated nor redeclared.
+
+Imagery: Javascript variables as backpack pockets
+Pockets(variables) hold stuff(data)
+Dynamic typing: Pockets hold various stuff types
+-'let': Zippers to replace stuff
+-'const':Sealed,stuff can't be changed.
+

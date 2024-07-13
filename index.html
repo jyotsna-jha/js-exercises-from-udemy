@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Javascript</title>
+
+    <!--
+    This method is not preferred since the code runs from top to bottom
+    Let's say that we have many lines of javascript code inside the script tag
+    and let's say that the code performs some asynchronous operation.It means that it will
+    take more time before the result will come back. And since the code runs from
+    top to bottom, is going to halt the displaying of the Javascript.So 
+    the user will see empty canvas or empty page unless the javascript finished
+    loading, and then it will go ahead and display the HTML code.And also this
+    approach does not improve code base.It simply means that you are messing up with javascript
+    with the HTML, so your code will be hard to maintain and debug.
+ 
+    -->
+    <!-- <script>
+        console.log("Hello World!")
+    </script> -->
+  </head>
+  <body>
+    <h1>Helloooooo jj</h1>
+
+    <!--?
+Using external javascript with async i.e  adding async attribute.
+The script will be executed immediately after it is downloaded, regardless of where the
+HTML parsing is at that moment.
+-->
+    <!-- <script src="script.js" async></script>  -->
+
+    <!--
+Using external javacript with defer i.e adding defer attribute.
+Script will be downloaded asynchronously but will only run after the entire HTML document.
+-->
+    <script src="script.js" defer></script>
+    <script src="datatypes.js" defer></script>
+    <script src="comparison-operator.js" defer></script>
+    <script src="switch-statemets.js" defer></script>
+    <script src="strings-js/strings1.js" defer></script>
+    <script src="strings-js/string2.js" defer></script>
+    <script src="strings-js/string-toupper-lowercase.js" defer></script>
+    <script src="strings-js/string-length.js" defer></script>
+    <script src="strings-js/string-slice.js" defer></script>
+    <script src="strings-js/split.js" defer></script>
+    <script src="strings-js/index-of-string.js" defer></script>
+    <script src="strings-js/trim-string.js" defer></script>
+    <script src="strings-js/replace-string.js" defer></script>
+    <script src="strings-js/lastIndexOf.js" defer></script>
+    <script src="strings-js/string-includes.js" defer></script>
+    <script src="strings-js/convert-string.js" defer></script>
+    <script src="strings-js/tostring-method.js" defer></script>
+    <script src="strings-js/number-to-string.js" defer></script>
+    <script src="strings-js/convert-boolean-to-string.js" defer></script>
+    <script src="numbers-in-js/to-String.js" defer></script>
+    <script src="numbers-in-js/to-fixed.js" defer></script>
+    <script src="numbers-in-js/to-Exponential.js" defer></script>
+    <script src="numbers-in-js/parse-int.js" defer></script>
+    <script src="numbers-in-js/parse-Float.js" defer></script>
+    <script src="numbers-in-js/is-nan.js" defer></script>
+    <script src="arrays/array-literals.js" defer></script>
+    <script src="arrays/array-constructors.js" defer></script>
+    <script src="arrays/array-of.js" defer></script>
+    <script src="arrays/push-unshift-method.js" defer></script>
+
+    <script src="arrays/pop-shift-method.js" defer></script>
+    <script src="array-traversal/for-loops.js" defer></script>
+    <script src="array-traversal/for-each-loops.js" defer></script>
+    <script src="array-traversal/map.js" defer></script>
+    <script src="array-traversal/array-filter-method.js" defer></script>
+
+
+
+
+    <!-- <button onclick="console.log('This is my first js code')">Click me</button> -->
+  </body>
+</html>
